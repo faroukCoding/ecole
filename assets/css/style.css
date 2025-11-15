@@ -55,12 +55,12 @@
   --color-primary: #005f73;
   --color-primary-2: #0a9396;
   --color-primary-3: #94d2bd;
-  --color-primary-4: #e9d8a6;
-  --color-primary-5: #ee9b00;
-  --color-primary-6: #ca6702;
-  --color-primary-7: #bb3e03;
-  --color-primary-8: #ae2012;
-  --color-primary-9: #9b2226;
+  --color-primary-4: #A9D4E2;
+  --color-primary-5: #F0F4F8;
+  --color-primary-6: #D9E2EC;
+  --color-primary-7: #BCCCDC;
+  --color-primary-8: #9FB3C8;
+  --color-primary-9: #829AB1;
   --color-primary-10: #36348E;
   --color-secondary: #1F1F25;
   --color-secondary-2: #110C2D;
@@ -140,6 +140,7 @@ body {
   position: relative;
   overflow-x: hidden;
   padding-right: 0 !important;
+  background: linear-gradient(to right, #001219, #005f73);
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   body {
@@ -14048,12 +14049,13 @@ xclip
   align-items: center;
   justify-content: space-between;
   position: relative;
-  background: var(--color-white);
-  border-radius: 80px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   padding: 0 40px;
-  border-width: 2px 2px 5px 2px;
-  border-style: solid;
-  border-color: var(--color-heading-1);
 }
 @media (max-width: 1200px) {
   .header-one-wrapper {
@@ -14510,7 +14512,7 @@ nav ul li a {
 }
 
 .header--sticky {
-  position: absolute;
+  position: fixed;
   display: block;
   width: 100%;
   box-shadow: none;
@@ -14520,7 +14522,7 @@ nav ul li a {
   left: 0;
   border-radius: 0;
   transition: all 0.5s ease-in-out;
-  top: 30px;
+  top: 10px;
   transform: translateY(0);
 }
 .header--sticky.fixed {
@@ -14539,6 +14541,7 @@ nav ul li a {
   width: 100%;
   z-index: 999;
   border: none !important;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 .header--sticky.sticky.header-default {
   top: 0;
@@ -24240,6 +24243,12 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.blur-effect {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
 }
 
 /* 9D Shadows */
