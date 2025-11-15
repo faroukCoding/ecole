@@ -1,5 +1,4 @@
 
-
 // header style here
 
 .header-top-one-wrapper{
@@ -150,12 +149,13 @@
     align-items: center;
     justify-content: space-between;
     position: relative;
-    background: var(--color-white);
-    border-radius: 80px;
+    background: rgba(0, 31, 63, 0.75);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border: 1px solid var(--color-primary-2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     padding: 0 40px;
-    border-width: 2px 2px 5px 2px;
-    border-style: solid;
-    border-color: var(--color-heading-1);
     @media(max-width:1200px){
         padding: 0 30px;
     }
@@ -332,13 +332,13 @@
                 opacity: .5;
             }
             i{
-                color: #000;
+                color: var(--color-body-2);
             }
         }
         .cart{
             padding-left: 15px;
             i{
-                color: var(--color-primary);
+                color: var(--color-body-2);
                 font-size: 22px;
                 position: relative;
                 margin-top: 8px !important;
