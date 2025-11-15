@@ -1,98 +1,62 @@
 :root {
-    // themes color
-    --color-primary: #FFD335;
-    --color-primary-2: #7763E5;
-    --color-primary-3: #FF6D1C;
-    --color-primary-4: #B54CCA;
-    --color-primary-5: #09A24F;
-    --color-primary-6: #C29663;
-    --color-primary-7: #FF4E41;
-    --color-primary-8: #20AD96;
-    --color-primary-9: #A89222;
-    --color-primary-10: #36348E;
-    --color-secondary: #1F1F25;
-    --color-secondary-2: #110C2D;
-
-    // body color
-    --color-body: #737477;
-    --color-body-2: #F9F8FF;
-    --color-secondary: #1F1F25;
-    --color-bg: #FFD9EF;
-    
-    // title color
-    --color-heading-1: #262626;
-    --color-white:#fff;
-    
-    // notify Colors
-    --color-success: #3EB75E;
-    --color-danger: #FF0003;
-    --color-warning: #FF8F3C;
-    --color-info: #1BA2DB;
-    
-
-    //Social icon colors
-    --color-facebook: #3B5997;
-    --color-twitter: #1BA1F2;
-    --color-youtube: #ED4141;
-    --color-linkedin: #0077B5;
-    --color-pinterest: #E60022;
-    --color-instagram: #C231A1;
-    --color-vimeo: #00ADEF;
-    --color-twitch: #6441A3;
-    --color-discord: #7289da;
-
-
-    // Font weight
-    --p-light: 300;
-    --p-regular: 400;
-    --p-medium: 500;
-    --p-semi-bold: 600;
-    --p-bold: 700;
-    --p-extra-bold: 800;
-    --p-black: 900;
-
-    // Font weight
-    --s-light: 300;
-    --s-regular: 400;
-    --s-medium: 500;
-    --s-semi-bold: 600;
-    --s-bold: 700;
-    --s-extra-bold: 800;
-    --s-black: 900;
-
-
-
-    //transition easing
-    --transition: all 0.3s;
-
-
-    // Font Family
-    --font-primary: 'Inter', sans-serif;
-    --font-secondary: 'Nunito', sans-serif;
-    --font-3: "fontawesome", sans-serif;
-
-    //Fonts Size
-    --font-size-b1: 18px;
-
-    --font-size-b2: 16px;
-    --font-size-b3: 12px;
-    --font-size-b4: 10px;
-
-
-    //Line Height
-    --line-height-b1: 26px;
-    --line-height-b2: 26px;
-    --line-height-b3: 1.7;
-
-
-    // Heading Font
-    --h1: 64px;
-    --h2: 48px;
-    --h3: 30px;
-    --h4: 26px;
-    --h5: 24px;
-    --h6: 18px;
-
+  --color-primary: #001f3f;
+  --color-primary-2: #FFD700;
+  --color-primary-3: #013220;
+  --color-primary-4: #1a3d6f;
+  --color-primary-5: #e6ebf2;
+  --color-secondary: #36454F;
+  --color-secondary-2: #110C2D;
+  --color-body: #36454F;
+  --color-body-2: #F5F5DC;
+  --color-bg: #F5F5DC;
+  --color-heading-1: #36454F;
+  --color-white: #fff;
+  --color-light-gray: #f0f2f3;
+  --color-gray: #5a6b79;
+  --color-success: #3EB75E;
+  --color-danger: #FF0003;
+  --color-warning: #FF8F3C;
+  --color-info: #1BA2DB;
+  --color-facebook: #3B5997;
+  --color-twitter: #1BA1F2;
+  --color-youtube: #ED4141;
+  --color-linkedin: #0077B5;
+  --color-pinterest: #E60022;
+  --color-instagram: #C231A1;
+  --color-vimeo: #00ADEF;
+  --color-twitch: #6441A3;
+  --color-discord: #7289da;
+  --p-light: 300;
+  --p-regular: 400;
+  --p-medium: 500;
+  --p-semi-bold: 600;
+  --p-bold: 700;
+  --p-extra-bold: 800;
+  --p-black: 900;
+  --s-light: 300;
+  --s-regular: 400;
+  --s-medium: 500;
+  --s-semi-bold: 600;
+  --s-bold: 700;
+  --s-extra-bold: 800;
+  --s-black: 900;
+  --transition: all 0.3s;
+  --font-primary: "Lora", serif;
+  --font-secondary: "Playfair Display", serif;
+  --font-3: "fontawesome", sans-serif;
+  --font-size-b1: 18px;
+  --font-size-b2: 16px;
+  --font-size-b3: 12px;
+  --font-size-b4: 10px;
+  --line-height-b1: 26px;
+  --line-height-b2: 26px;
+  --line-height-b3: 1.7;
+  --h1: 64px;
+  --h2: 48px;
+  --h3: 30px;
+  --h4: 26px;
+  --h5: 24px;
+  --h6: 18px;
 }
 
 // Layouts Variation
