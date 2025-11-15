@@ -49,18 +49,18 @@
 
 ========================================*/
 /* Default  */
-@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
 :root {
-  --color-primary: #FFD335;
-  --color-primary-2: #7763E5;
-  --color-primary-3: #FF6D1C;
-  --color-primary-4: #B54CCA;
-  --color-primary-5: #09A24F;
-  --color-primary-6: #C29663;
-  --color-primary-7: #FF4E41;
-  --color-primary-8: #20AD96;
-  --color-primary-9: #A89222;
+  --color-primary: #005f73;
+  --color-primary-2: #0a9396;
+  --color-primary-3: #94d2bd;
+  --color-primary-4: #e9d8a6;
+  --color-primary-5: #ee9b00;
+  --color-primary-6: #ca6702;
+  --color-primary-7: #bb3e03;
+  --color-primary-8: #ae2012;
+  --color-primary-9: #9b2226;
   --color-primary-10: #36348E;
   --color-secondary: #1F1F25;
   --color-secondary-2: #110C2D;
@@ -68,7 +68,7 @@
   --color-body-2: #F9F8FF;
   --color-secondary: #1F1F25;
   --color-bg: #FFD9EF;
-  --color-heading-1: #262626;
+  --color-heading-1: #001219;
   --color-white:#fff;
   --color-success: #3EB75E;
   --color-danger: #FF0003;
@@ -98,8 +98,8 @@
   --s-extra-bold: 800;
   --s-black: 900;
   --transition: all 0.3s;
-  --font-primary: "Inter", sans-serif;
-  --font-secondary: "Nunito", sans-serif;
+  --font-primary: "Poppins", sans-serif;
+  --font-secondary: "Roboto", sans-serif;
   --font-3: "fontawesome", sans-serif;
   --font-size-b1: 18px;
   --font-size-b2: 16px;
@@ -24230,6 +24230,52 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
 }
 .rts-contact-area .get-in-touch .contact-wrapper-list li .text .desc a {
   color: var(--color-white);
+}
+
+/* Liquid Glass Effect */
+.liquid-glass {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* 9D Shadows */
+.shadow-9d {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+/* Micro-animations and Transitions */
+.rts-btn, .nav-link, .category-wrapper, .course-wrapper, .team-wrapper {
+  transition: all 0.3s ease-in-out;
+}
+
+.rts-btn:hover, .nav-link:hover {
+  transform: translateY(-3px);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Gradients */
+body {
+  background: linear-gradient(to right, #001219, #005f73);
+}
+
+.rts-btn.btn-primary {
+  background: linear-gradient(to right, #0a9396, #94d2bd);
 }
 
 .contact-form {
