@@ -2,7 +2,7 @@
 // header style here
 
 .header-top-one-wrapper{
-    background: var(--color-primary-2);
+    background: var(--color-light-gray);
     padding: 0;
     @media #{$sm-layout} {
         display: none;
@@ -17,7 +17,7 @@
         align-items: center;
         gap: 30px;
         a{
-            color: #fff;
+            color: var(--color-body);
             display: flex;
             align-items: center;
             gap: 10px;
@@ -46,7 +46,7 @@
                     }
                 }
                 a{
-                    color: var(--color-white);
+                    color: var(--color-body);
                     font-size: 14px;
                     padding: 8px 0;
                     display: flex;
@@ -149,9 +149,7 @@
     align-items: center;
     justify-content: space-between;
     position: relative;
-    background: rgba(0, 31, 63, 0.75);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    background: var(--color-white);
     border-radius: 10px;
     border: 1px solid var(--color-primary-2);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
