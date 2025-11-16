@@ -17,7 +17,7 @@
         align-items: center;
         gap: 30px;
         a{
-            color: #fff;
+            color: #000;
             display: flex;
             align-items: center;
             gap: 10px;
@@ -46,7 +46,7 @@
                     }
                 }
                 a{
-                    color: var(--color-white);
+                    color: #000;
                     font-size: 14px;
                     padding: 8px 0;
                     display: flex;
@@ -121,7 +121,7 @@
             max-width: max-content;
             background-color: transparent;
             border: none;
-            color: #fff;
+            color: #000;
             font-size: 14px;
             position: relative;
             background-image: url(../images/header/01.svg) !important;

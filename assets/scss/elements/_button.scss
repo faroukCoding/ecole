@@ -8,7 +8,7 @@
   padding: 16px 30px;
   transition: all 0.4s ease-in-out;
   font-weight: 600;
-  color: var(--color-primary);
+  color: #000;
   font-family: var(--font-secondary);
   line-height: 1;
   border: 1px solid var(--color-primary);
@@ -20,7 +20,7 @@
 }
 
 .rts-btn:hover {
-  color: var(--color-body-2);
+  color: #fff;
   background-color: var(--color-primary);
   transform: translateY(-3px);
   box-shadow: 0 5px 15px rgba(0, 31, 63, 0.2);
@@ -28,7 +28,7 @@
 
 .rts-btn.btn-primary {
   background: var(--color-primary) !important;
-  color: var(--color-body-2);
+  color: #fff;
   border-color: var(--color-primary);
 }
 
