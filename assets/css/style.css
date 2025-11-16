@@ -14340,6 +14340,10 @@ xclip
   color: #ffffff !important;
 }
 
+.header-one-wrapper .main-nav-one ul li a {
+  color: #fff !important;
+}
+
 .menu-btn {
   cursor: pointer;
 }
@@ -14973,14 +14977,15 @@ nav ul li a {
 }
 
 .rts-btn.btn-primary {
-  background: var(--color-primary) !important;
-  color: var(--color-body-2);
-  border-color: var(--color-primary);
+  background: #000 !important;
+  color: #fff;
+  border-color: #000;
 }
 
 .rts-btn.btn-primary:hover {
   background: transparent !important;
-  color: var(--color-primary);
+  color: #000;
+  border-color: #000;
 }
 
 .rts-btn.btn-primary2 {
@@ -17110,12 +17115,13 @@ nav ul li a {
   background: var(--color-heading-1);
 }
 .class-wrapper .wrapper-inner {
-  background: var(--color-primary-2);
+  background: #001f3f;
   border-radius: 10px;
   padding: 35px 40px 40px 35px;
   border: 2px solid var(--color-heading-1);
   position: relative;
   z-index: 1;
+  background: #001f3f;
 }
 @media (max-width: 1200px) and (min-width: 992px) {
   .class-wrapper .wrapper-inner {
@@ -17132,8 +17138,11 @@ nav ul li a {
   height: 60px;
 }
 .class-wrapper .wrapper-inner .title {
-  color: var(--color-white);
+  color: #fff;
   margin-bottom: 10px;
+}
+.class-wrapper .wrapper-inner p {
+  color: #fff;
 }
 @media (max-width: 1200px) and (min-width: 992px) {
   .class-wrapper .wrapper-inner .title {
@@ -17217,7 +17226,7 @@ nav ul li a {
 .rts-course-area .course-wrapper .wrapper-inner {
   border-radius: 10px;
   border: 2px solid var(--color-heading-1);
-  background: var(--color-primary-2);
+  background: #001f3f;
   overflow: hidden;
 }
 .rts-course-area .course-wrapper .wrapper-inner .image {
@@ -17233,7 +17242,13 @@ nav ul li a {
 }
 .rts-course-area .course-wrapper .wrapper-inner .content .title {
   font-size: 24px;
-  color: var(--color-white);
+  color: #fff;
+}
+.rts-course-area .course-wrapper .wrapper-inner .content .desc {
+  color: #fff;
+}
+.rts-course-area .course-wrapper .wrapper-inner .content .feature-wrapper .wrapper-list {
+  color: #fff;
 }
 @media (max-width: 1300px) and (min-width: 1140px) {
   .rts-course-area .course-wrapper .wrapper-inner .content .title {
@@ -17398,6 +17413,7 @@ nav ul li a {
   border-radius: 10px;
   border: 2px solid var(--color-heading-1);
   overflow: hidden;
+  background: #001f3f;
 }
 .course-wrapper-style-2 .wrapper-inner .image {
   border-bottom: 2px solid var(--color-heading-1);
@@ -18430,8 +18446,15 @@ nav ul li a {
   border-width: 2px 5px 5px 2px;
   border-style: solid;
   border-color: var(--color-heading-1);
-  background: #fff;
+  background: #001f3f;
   position: relative;
+}
+.right-course-details .course-side-bar .what-includes .title,
+.right-course-details .course-side-bar .price-area .title,
+.right-course-details .course-side-bar .price-area h4,
+.right-course-details .course-side-bar .what-includes .single-include .left span,
+.right-course-details .course-side-bar .what-includes .single-include .right span {
+  color: #fff;
 }
 @media only screen and (max-width: 767px) {
   .right-course-details .course-side-bar {
@@ -19010,7 +19033,7 @@ nav ul li a {
   }
 }
 .event-wrapper .content .title {
-  color: var(--color-white);
+  color: #fff;
 }
 .event-wrapper .content .meta-wrapper {
   padding: 0;
@@ -19018,7 +19041,7 @@ nav ul li a {
 }
 .event-wrapper .content .meta-wrapper li {
   list-style: none;
-  color: var(--color-white);
+  color: #fff;
   display: flex;
   gap: 10px;
   margin: 0;
@@ -19995,6 +20018,7 @@ nav ul li a {
   border: 2px solid var(--color-heading-1);
   overflow: hidden;
   transition: all 0.3s;
+  background: #001f3f;
 }
 .team-wrapper .wrapper-inner .image .social-area {
   padding: 0;
@@ -20069,13 +20093,14 @@ nav ul li a {
   border-radius: 10px;
   display: block;
   padding: 20px 0;
-  background: var(--color-white);
+  background: #000;
   border: 2px solid var(--color-heading-1);
-  color: var(--color-heading-1);
+  color: #fff;
   transition: all 0.3s;
 }
 .team-wrapper .content .title a:hover {
   background: var(--color-primary);
+  color: #fff;
 }
 .team-wrapper .content::after {
   content: "";
@@ -20987,10 +21012,14 @@ nav ul li a {
   position: relative;
   z-index: 1;
   padding: 20px 20px 40px;
-  background: var(--color-primary-2);
+  background: #001f3f;
   border-radius: 10px;
   border: 2px solid var(--color-heading-1);
   text-align: center;
+  color: #fff;
+}
+.blog-wrapper .wrapper-inner .content .title a {
+  color: #fff;
 }
 @media (max-width: 450px) {
   .blog-wrapper .wrapper-inner {
