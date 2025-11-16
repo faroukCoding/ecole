@@ -52,23 +52,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 :root {
-  --color-primary: #007bff;
-  --color-primary-2: #0056b3;
-  --color-primary-3: #004085;
+  --color-primary: #001f3f;
+  --color-primary-2: #005f73;
+  --color-primary-3: #013220;
   --color-primary-5: #e6ebf2;
-  --color-secondary: #6c757d;
-  --color-secondary-2: #5a6268;
-  --color-body: #212529;
-  --color-body-2: #f8f9fa;
-  --color-bg: #ffffff;
-  --color-heading-1: #212529;
+  --color-secondary: #36454F;
+  --color-secondary-2: #110C2D;
+  --color-body: #36454F;
+  --color-body-2: #F5F5DC;
+  --color-bg: #F5F5DC;
+  --color-heading-1: #36454F;
   --color-white: #fff;
-  --color-light-gray: #f8f9fa;
-  --color-gray: #6c757d;
-  --color-success: #28a745;
-  --color-danger: #dc3545;
-  --color-warning: #ffc107;
-  --color-info: #17a2b8;
+  --color-light-gray: #f0f2f3;
+  --color-gray: #5a6b79;
+  --color-success: #3EB75E;
+  --color-danger: #FF0003;
+  --color-warning: #FF8F3C;
+  --color-info: #1BA2DB;
   --color-facebook: #3B5997;
   --color-twitter: #1BA1F2;
   --color-youtube: #ED4141;
@@ -79,22 +79,22 @@
   --color-twitch: #6441A3;
   --color-discord: #7289da;
   --p-light: 300;
-  --p-regular: 500;
-  --p-medium: 600;
-  --p-semi-bold: 700;
-  --p-bold: 800;
-  --p-extra-bold: 900;
+  --p-regular: 400;
+  --p-medium: 500;
+  --p-semi-bold: 600;
+  --p-bold: 700;
+  --p-extra-bold: 800;
   --p-black: 900;
   --s-light: 300;
   --s-regular: 400;
   --s-medium: 500;
   --s-semi-bold: 600;
-  --s-bold: 800;
-  --s-extra-bold: 900;
+  --s-bold: 700;
+  --s-extra-bold: 800;
   --s-black: 900;
   --transition: all 0.3s;
-  --font-primary: "Nunito", sans-serif;
-  --font-secondary: "Inter", sans-serif;
+  --font-primary: "Lora", serif;
+  --font-secondary: "Playfair Display", serif;
   --font-3: "fontawesome", sans-serif;
   --font-size-b1: 18px;
   --font-size-b2: 16px;
@@ -131,7 +131,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-family: var(--font-primary);
   color: var(--color-body);
-  font-weight: var(--p-regular);
+  font-weight: var(--p-medium);
   position: relative;
   overflow-x: hidden;
   padding-right: 0 !important;
@@ -12309,7 +12309,7 @@ xclip
 
 /* Header */
 .header-top-one-wrapper {
-  background: var(--color-light-gray);
+  background: var(--color-primary-2);
   padding: 0;
 }
 @media only screen and (max-width: 767px) {
@@ -12328,7 +12328,7 @@ xclip
   gap: 30px;
 }
 .header-top-one-wrapper .left-information a {
-  color: var(--color-body);
+  color: #000;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -12357,7 +12357,7 @@ xclip
   transform: translateZ(0) translateY(0);
 }
 .header-top-one-wrapper .right-information .rts-dropdown-menu .has-child-menu a {
-  color: var(--color-body);
+  color: #000;
   font-size: 14px;
   padding: 8px 0;
   display: flex;
@@ -12424,7 +12424,7 @@ xclip
   max-width: max-content;
   background-color: transparent;
   border: none;
-  color: #fff;
+  color: #000;
   font-size: 14px;
   position: relative;
   background-image: url(../images/header/01.svg) !important;
@@ -12450,7 +12450,9 @@ xclip
   align-items: center;
   justify-content: space-between;
   position: relative;
-  background: var(--color-white);
+  background: rgba(0, 31, 63, 0.75);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   border-radius: 10px;
   border: 1px solid var(--color-primary-2);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -13353,7 +13355,7 @@ nav ul li a {
   padding: 16px 30px;
   transition: all 0.4s ease-in-out;
   font-weight: 600;
-  color: var(--color-primary);
+  color: #000;
   font-family: var(--font-secondary);
   line-height: 1;
   border: 1px solid var(--color-primary);
@@ -13365,7 +13367,7 @@ nav ul li a {
 }
 
 .rts-btn:hover {
-  color: var(--color-body-2);
+  color: #fff;
   background-color: var(--color-primary);
   transform: translateY(-3px);
   box-shadow: 0 5px 15px rgba(0, 31, 63, 0.2);
@@ -13373,7 +13375,7 @@ nav ul li a {
 
 .rts-btn.btn-primary {
   background: var(--color-primary) !important;
-  color: var(--color-body-2);
+  color: #fff;
   border-color: var(--color-primary);
 }
 
