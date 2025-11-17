@@ -15786,6 +15786,14 @@ nav ul li a {
   border-radius: 10px;
   border: 2px solid var(--color-heading-1);
   overflow: hidden;
+  background-color: #008080 !important;
+  color: #ffffff !important;
+}
+.course-wrapper-style-2 .wrapper-inner .content .title,
+.course-wrapper-style-2 .wrapper-inner .content .desc,
+.course-wrapper-style-2 .wrapper-inner .content .author-name,
+.course-wrapper-style-2 .wrapper-inner .content .price {
+  color: #ffffff !important;
 }
 .course-wrapper-style-2 .wrapper-inner .image {
   border-bottom: 2px solid var(--color-heading-1);
@@ -19451,6 +19459,15 @@ nav ul li a {
 }
 .blog-wrapper.three .wrapper-inner {
   background: var(--color-primary-3);
+}
+
+.blog-wrapper .wrapper-inner {
+  background: #191970 !important;
+  color: white !important;
+}
+
+.blog-wrapper .wrapper-inner .content .title a {
+  color: white !important;
 }
 
 .blog-wrapper-style-2 {
