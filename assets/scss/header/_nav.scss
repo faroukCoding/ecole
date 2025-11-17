@@ -115,11 +115,11 @@ nav{
             }
             a{
                 &.nav-link{
-                    color: var(--color-body-2);
-                    font-size: 16px;
-                    font-weight: 400;
+                    color: var(--color-white);
+                    font-size: 18px;
+                    font-weight: 600;
                     @media #{$md-layout} {
-                        font-size: 14px;
+                        font-size: 16px;
                         margin-right: 8px;
                     }
                 }
@@ -134,9 +134,9 @@ nav{
                     position: relative;
                     &.nav-link{
                         padding: 27px 15px;
-                        color: var(--color-heading-1);
-                        font-size: 16px;
-                        font-weight: 500;
+                        color: var(--color-white);
+                        font-size: 18px;
+                        font-weight: 600;
                     }
                     &::before{
                         content: "\f078" !important;
@@ -160,7 +160,7 @@ nav{
                     text-align: left;
                     transition: 0.3s;
                     border-radius: 0 0 10px 10px;
-                    background-color: #fff;
+                    background-color: #005f73;
                     border-left: 1px solid #ffffff14;
                     border-bottom: 1px solid #ffffff14;
                     border-right: 1px solid #ffffff14;

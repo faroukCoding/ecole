@@ -149,7 +149,7 @@
     align-items: center;
     justify-content: space-between;
     position: relative;
-    background: rgba(0, 31, 63, 0.75);
+    background: rgba(0, 95, 115, 0.75);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border-radius: 10px;
@@ -189,18 +189,18 @@
                 display: flex;
                 align-items: center;
                 border: 1px solid #BBB1F2;
-                background: #FBFAFF;
+                background: #005f73;
                 gap: 8px;
                 position: relative;
                 @media #{$smlg-device} {
                     display: none;
                 }
                 span{
-                    color: #553CDF;
+                    color: #ffffff;
                     font-weight: 500;
                 }
                 i{
-                    color: #553CDF;
+                    color: #ffffff;
                 }
             }
             &:hover{
