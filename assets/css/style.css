@@ -13348,6 +13348,7 @@ nav ul li a {
   margin: 0;
 }
 
+
 /* Banner */
 .rts-btn {
   display: block;
@@ -13415,51 +13416,51 @@ nav ul li a {
 
 .rts-btn.btn-border {
   border: 1px solid #000;
-  color: #000;
-  background: #fff;
+  color: #fff;
+  background: #000;
 }
 
 .rts-btn.btn-border:hover {
-  background: #000;
-  color: #fff;
+  background: #fff;
+  color: #000;
 }
 
 .rts-btn.btn-primary-white {
-  background: #fff !important;
-  color: #000;
+  background: #000 !important;
+  color: #fff;
   border: 1px solid #000;
 }
 
 .rts-btn.btn-primary-white:hover {
-  background: #000 !important;
+  background: #fff !important;
   border-color: #000;
-  color: #fff;
+  color: #000;
 }
 
 .rts-btn.btn-gym {
-  background: var(--color-primary-gym) !important;
+  background: #000 !important;
   color: #fff;
-  border: 1px solid transparent;
+  border: 1px solid #000;
   border-radius: 0;
   padding: 14px 34px;
 }
 .rts-btn.btn-gym:hover {
-  border: 1px solid var(--color-white);
-  background: var(--color-white) !important;
-  color: var(--color-primary-gym) !important;
+  border: 1px solid #000;
+  background: #fff !important;
+  color: #000 !important;
 }
 
 .rts-btn.btn-kitchen {
-  background: var(--color-primary-kitchen) !important;
+  background: #000 !important;
   color: #fff;
-  border: 1px solid transparent;
+  border: 1px solid #000;
   border-radius: 4px;
   padding: 14px 34px;
 }
 .rts-btn.btn-kitchen:hover {
-  border: 1px solid var(--color-primary-kitchen);
-  background: none !important;
-  color: var(--color-primary-kitchen) !important;
+  border: 1px solid #000;
+  background: #fff !important;
+  color: #000 !important;
 }
 
 .btn-narrow-arrow {
@@ -13473,7 +13474,6 @@ nav ul li a {
 .btn-narrow-arrow i {
   color: var(--color-primary);
 }
-
 .vedio-icone {
   position: relative;
   max-width: max-content;
@@ -22857,11 +22857,13 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
 }
 .pricing-wrapper .pricing-button-area .pricing-btn {
   margin: 40px auto auto;
-  background: var(--color-white) !important;
+  background: #000 !important;
+  color: #fff !important;
   transition: all 0.3s;
 }
 .pricing-wrapper .pricing-button-area .pricing-btn:hover {
-  background: var(--color-primary) !important;
+  background: #fff !important;
+  color: #000 !important;
 }
 .pricing-wrapper.bg-four .pricing-head {
   background: var(--color-primary);
