@@ -13348,6 +13348,7 @@ nav ul li a {
   margin: 0;
 }
 
+
 /* Banner */
 .rts-btn {
   display: block;
@@ -13473,7 +13474,6 @@ nav ul li a {
 .btn-narrow-arrow i {
   color: var(--color-primary);
 }
-
 .vedio-icone {
   position: relative;
   max-width: max-content;
@@ -22857,11 +22857,13 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
 }
 .pricing-wrapper .pricing-button-area .pricing-btn {
   margin: 40px auto auto;
-  background: var(--color-white) !important;
+  background: #000 !important;
+  color: #fff !important;
   transition: all 0.3s;
 }
 .pricing-wrapper .pricing-button-area .pricing-btn:hover {
-  background: var(--color-primary) !important;
+  background: #fff !important;
+  color: #000 !important;
 }
 .pricing-wrapper.bg-four .pricing-head {
   background: var(--color-primary);
